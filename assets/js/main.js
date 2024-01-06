@@ -58,5 +58,5 @@ function handleContactForm(e) {
   const subject = encodeURIComponent($("input[name='subject']").value);
   const message = encodeURIComponent($("textarea[name='message']").value);
 
-  window.location.href = `mailto:username@domain?subject=${subject}&body=${message}`;
+  window.location.href = `mailto:calebjohn3112@gmail.com?subject=${subject}&body=${message}`;
 }
